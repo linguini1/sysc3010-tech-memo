@@ -25,7 +25,7 @@ micro-controller/digital device (in our case, the Raspberry Pi 4).
 ## Types of Buzzers
 
 There are two main types of piezo buzzers: passive and active. One thing to keep in mind is that both buzzers will
-exhibit a louder volume when connected to *higher voltage*. Make sure, however, that you keep the supply voltage within
+exhibit a louder volume when connected to _higher voltage_. Make sure, however, that you keep the supply voltage within
 the limit that your buzzer is rated for.
 
 ### Passive
@@ -37,7 +37,7 @@ The type of signal usually provided to a buzzer is a rapidly pulsing signal, cal
 signal. The signal itself looks like the image below:
 
 <figure>
-    <img src="https://www.researchgate.net/profile/Ahmed_Elmahalawy/publication/271437313/figure/fig4/AS:668441367306246@1536380249520/PWM-signal-with-its-two-basic-time-periods.png">
+    <img src="./pwm.png">
     <figcaption align="center">A sample PWM signal and its characteristics. [1]</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ convention, the **shorter lead is the negative terminal** (ground), and the **lo
 
 Using the ground connection on the Raspberry Pi, connect the negative terminal of the buzzer to ground using a wire onto
 your breadboard. Then, using one of the Raspberry Pi's 3V output pins (see the pinout diagram), connect the positive
-terminal of the buzzer to 3V. If the buzzer produces noise, it is an active buzzer. If not, it is a passive buzzer and 
+terminal of the buzzer to 3V. If the buzzer produces noise, it is an active buzzer. If not, it is a passive buzzer and
 requires a changing signal.
 
 <!--- TODO: add fritzing schematic of test circuit --->
@@ -184,7 +184,7 @@ The program is very similar to the active buzzer, but when we turn our buzzer on
 a specific tone. In this demo I used B flat, and also declared `A_4` to be a concert A note if I wanted to change the
 note later.
 
-There are several ways to select tones in `gpiozero`, which you can find documented [here][gpiozero-tones]. \[2\] Some 
+There are several ways to select tones in `gpiozero`, which you can find documented [here][gpiozero-tones]. \[2\] Some
 of the methods include:
 
 - From a frequency in Hz (e.g. 466.164)
