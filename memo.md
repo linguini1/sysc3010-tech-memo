@@ -37,7 +37,7 @@ The type of signal usually provided to a buzzer is a rapidly pulsing signal, cal
 signal. The signal itself looks like the image below:
 
 <figure>
-    <img src="./pwm.png">
+    <img src="https://github.com/linguini1/sysc3010-tech-memo/blob/main/pwm.png">
     <figcaption align="center">A sample PWM signal and its characteristics. [1]</figcaption>
 </figure>
 
@@ -67,7 +67,7 @@ Some piezo buzzers have a small marking on their shield with a "+" sign, indicat
 terminal. The symbol is directly over the positive lead.
 
 <figure>
-    <img src="./shield-marking.jpg">
+    <img src="https://github.com/linguini1/sysc3010-tech-memo/blob/main/shield-marking.jpg">
     <figcaption align="center">A piezo buzzer with a marking on its casing indicating the positive terminal.</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ convention, the **shorter lead is the negative terminal** (ground), and the **lo
 (supply voltage).
 
 <figure>
-    <img src="./lead-lengths.jpg">
+    <img src="https://github.com/linguini1/sysc3010-tech-memo/blob/main/lead-lengths.jpg">
     <figcaption align="center">A piezo buzzer with differing lead lengths for determining polarity.</figcaption>
 </figure>
 
