@@ -96,7 +96,10 @@ requires a changing signal.
 
 <!--- TODO: add fritzing schematic of test circuit --->
 
-<!--- TODO: add a picture of the test circuit --->
+<figure>
+    <img src="https://github.com/linguini1/sysc3010-tech-memo/blob/main/test-circuit.jpg">
+    <figcaption align="center">The test circuit with the buzzer connected to 3V.</figcaption>
+</figure>
 
 ## Interfacing with the Pi
 
@@ -108,7 +111,10 @@ been chosen for this demo.
 
 <!--- TODO: add fritzing schematic of demo circuit --->
 
-<!--- TODO: add a picture of the demo circuit --->
+<figure>
+    <img src="https://github.com/linguini1/sysc3010-tech-memo/blob/main/test-circuit.jpg">
+    <figcaption align="center">The circuit with the buzzer connected to GPIO 22.</figcaption>
+</figure>
 
 In your Raspberry Pi's console window/terminal, open the directory where you want to write your test code. Use the
 following commands to create a virtual environment with the required dependencies for development:
